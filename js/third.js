@@ -27,10 +27,16 @@ function favoriteAnimal(animal) {
 capitalize("HeLoLo");
 
 function lastLetter(findLastLetter) {
-    let stringLength = findLastLetter.length;
-    stringLength--
-    let foundLastLetter = findLastLetter.charAt(stringLength);
+    let foundLastLetter = findLastLetter.slice(-1);
     console.log(foundLastLetter);
 }
 
 lastLetter("HELLO BEAUTIFUL");
+
+
+
+
+
+
+
+
