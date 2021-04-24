@@ -7,6 +7,10 @@
 
 let endNum = +prompt("Please enter a number for FizzBuzz up to: ");
 
+while (isNaN(endNum)) {
+    endNum = +prompt("Please only enter a number: ");
+}
+
 for (let i = 1; i <= endNum; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
         document.write("FizzBuzz<br>");
