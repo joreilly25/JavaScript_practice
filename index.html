@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavaScript practice</title>
-</head>
-<body>
+  </head>
+  <body>
     <h3>Check the console for other script output</h3>
     <h4>FizzBuzz!</h4>
     <script src="/js/first.js"></script>
@@ -15,16 +15,20 @@
     <script src="/js/fizzbuzz.js"></script>
 
     <script>
-        let userString = prompt ("gimmie a string bro");
+      let userString = prompt("gimmie a string bro");
 
-        function findString(userString) {
-            if (userString == "rock" || userString == "paper" || userString == "scissors") {
-                console.log("You got it!")
-            } else {
-                console.log("Nope");
-            }
+      function findString(userString) {
+        if (
+          userString == "rock" ||
+          userString == "paper" ||
+          userString == "scissors"
+        ) {
+          console.log("You got it!");
+        } else {
+          console.log("Nope");
         }
-        findString(userString);
+      }
+      findString(userString);
     </script>
-</body>
+  </body>
 </html>
